@@ -67,7 +67,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  /* outline: 2px solid tomato; */
+  outline: 2px solid tomato;
 }
 
 /* ----------------------------СТУДИЯ----------------------------- */
@@ -302,7 +302,6 @@ body {
 }
 
 .team-item {
-  padding-bottom: 30px;
   margin-right: 30px;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -311,7 +310,11 @@ body {
 }
 
 .team-images {
-  margin-bottom: 30px;
+}
+
+.team-item-content {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team-heading {
@@ -325,11 +328,41 @@ body {
 }
 
 .team-text {
+  margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--alt-text-color);
+}
+
+.team-social-list {
+  display: flex;
+  justify-content: center;
+}
+
+.team-social-item + .team-social-item {
+  margin-left: 10px;
+}
+
+.team-social-link {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #afb1b8;
+}
+
+.team-social-link:hover,
+.team-social-link:focus {
+  background: #2196f3;
+  color: #ffffff;
+}
+
+.team-social-icon {
+  fill: currentColor;
 }
 
 /* ---------------------------------Футер--------------------------- */
@@ -462,13 +495,22 @@ body {
   flex-wrap: wrap;
 }
 
+.projects-item {
+  background: #ffffff;
+}
+
 .projects-item:not(:nth-child(3n)) {
   margin-right: 30px;
-  background: #ffffff;
 }
 
 .projects-item:nth-child(-n + 6) {
   margin-bottom: 30px;
+}
+
+.projects-item:hover,
+.projects-item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .projects-link {
@@ -479,7 +521,7 @@ body {
 
 .projects-block {
   padding: 20px 24px;
-  outline: 1px solid #eeeeee;
+  border: 1px solid #eeeeee;
 }
 
 .projects-title {
