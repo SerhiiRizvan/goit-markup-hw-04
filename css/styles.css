@@ -396,6 +396,8 @@ body {
 /* ---------------------------------Клиенты------------------------------ */
 
 .clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .clients-title {
@@ -404,6 +406,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 50px;
 }
 
 .clients-list {
@@ -429,7 +432,14 @@ body {
   border-radius: 4px;
 }
 
+.clients-link:hover,
+.clients-link:focus {
+  color: #2196f3;
+  border: 1px solid #2196f3;
+}
+
 .clients-icon {
+  fill: currentColor;
 }
 
 /* ----------------------------------ФУТЕР-------------------------------- */
