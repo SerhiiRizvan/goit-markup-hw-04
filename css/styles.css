@@ -167,6 +167,10 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--alt-text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
 }
 
 .header-tel:hover,
@@ -175,7 +179,8 @@ body {
 }
 
 .mail-icon {
-
+  fill: currentColor;
+  margin-right: 10px;
 }
 
 /* -----------------------Главный-контент------------------------ */
