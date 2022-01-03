@@ -563,14 +563,13 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  color: #afb1b8;
+  color: #ffffff;
   background-color: rgba(255, 255, 255, 0.1);
 }
 
 .footer-social-link:hover,
 .footer-social-link:focus {
   background: #2196f3;
-  color: #ffffff;
 }
 
 .footer-social-icon {
