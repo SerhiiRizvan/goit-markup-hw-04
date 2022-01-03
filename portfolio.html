@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru  ">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,8 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-            integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
@@ -28,10 +28,18 @@
             </nav>
             <ul class="list header-contacts">
                 <li class="header-mail-list">
-                    <a class="link header-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <a class="link header-mail" href="mailto:info@devstudio.com">
+                        <svg class="mail-icon" width="20" height="20">
+                            <use href="./images/icons.svg#icon-envelope-1"></use>
+                        </svg>info@devstudio.com
+                    </a>
                 </li>
                 <li class="header-tel-list">
-                    <a class="link header-tel" href="tel:+380961111111">+38 096 111 11 11</a>
+                    <a class="link header-tel" href="tel:+380961111111">
+                        <svg class="mail-icon" width="20" height="20">
+                            <use href="./images/icons.svg#icon-smartphone-1"></use>
+                        </svg>+38 096 111 11 11
+                    </a>
                 </li>
             </ul>
         </div>
@@ -150,8 +158,9 @@
     </main>
                                 <!-- Футер -->
     <footer class="footer">
-        <div class="container">
-            <a href="" lang="en" class="link footer-title">Web<span class="footer-span">Studio</span></a>
+        <div class="container container-icon">
+            <div class="footer-container-address">
+                <a href="" lang="en" class="link footer-title">Web<span class="footer-span">Studio</span></a>
                 <address class="footer-address">
                     <ul class="list footer-list">
                         <li class="footer-item">
@@ -165,6 +174,40 @@
                         </li>
                     </ul>
                 </address>
+            </div>
+            <div class="footer-container-icon">
+                <h2 class="footer-second-title">присоединяйтесь</h2>
+                <ul class="list footer-social-list">
+                    <li class="footer-social-item">
+                        <a href="" class="link footer-social-link">
+                            <svg class="footer-social-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-social-item">
+                        <a href="" class="link footer-social-link">
+                            <svg class="team-social-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-social-item">
+                        <a href="" class="link footer-social-link">
+                            <svg class="footer-social-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-social-item">
+                        <a href="" class="link footer-social-link">
+                            <svg class="footer-social-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </footer>
 </body>
